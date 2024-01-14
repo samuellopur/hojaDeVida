@@ -1,0 +1,93 @@
+
+/* Diseño general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+/* Personalización del contenido */
+h1 {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+/* Experiencia*/
+ul {
+    list-style-type: square;
+    padding: 0 40px;
+}
+
+/* Habilidades ténicas*/
+table {
+    width: 40%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+/* Formulario de contacto*/
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0055a4;
+}
+
+
+
+
+
