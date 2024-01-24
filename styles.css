@@ -7,6 +7,21 @@ body {
     background-color: #f9f9f9;
 }
 
+/* Estilos para la sección de experiencia laboral */
+#experienciaLaboral {
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+/* Estilos para las habilidades técnicas */
+#skillsList {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
 h1, h2 {
     color: #333;
 }
@@ -57,7 +72,7 @@ form {
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
 }
 
@@ -86,6 +101,29 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0055a4;
 }
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
 
 
 
